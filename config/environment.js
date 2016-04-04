@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'super-rentals',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://blazing-heat-892.firebaseio.com/',
+    firebase: 'https://luminous-inferno-3913.firebaseio.com/',
     // This should be your own unique Firebase application link!
     baseURL: '/',
     locationType: 'auto',

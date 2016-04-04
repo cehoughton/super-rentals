@@ -1,0 +1,8 @@
+<h4>Rentals Available in {{city.name}}</h4>
+
+<ul>
+  {{#each city.rentals as |rental|}}
+    <li>{{#link-to 'rental' rental.id}}{{rental.owner}}'s {{rental.type}} in {{rental.city.name}} {{rental.cost}}{{/link-to}}</li>
+    <button {{action 'destroyCity' city}}>Delete City</button>
+  {{/each}}
+</ul>
